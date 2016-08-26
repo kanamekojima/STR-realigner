@@ -30,20 +30,21 @@ java -jar STR-realigner.jar \
 
 ## OPTIONS
 
-| Option | Default Value | Summary |
-|--------|:--------------|:--------|
-| -r (--reference) | STR none | Reference genome fasta file| 
-| --fusion-distance | INT none | window distance for unifying realignment target regions |
-| --gap-extension-penalty-realign | DOUBLE none | gap exntesion penalty for STR region |
-|* -c (--call-range-size) | INT 2500000 | Variant calling range size |
-| -h (--help) | false | Print options and exit |
-| -i (--iteration) | INT 20 | Iteration count |
-| -il (--illumina) | [true/false] false | Use Illumina HiSeq read correction mode |
+| Option | Value Type | Default | Summary |
+|--------|:-----------|:--------|:--------|
+| -r (--reference) | STR | none | Reference genome fasta file| 
+| --fusion-distance | INT | none | window distance for unifying realignment target regions |
+| --gap-extension-penalty-realign | DOUBLE | none | gap exntesion penalty for STR region |
+|* -c (--call-range-size) | INT | 2500000 | Variant calling range size |
+| -h (--help) | BOOLEAN / false | Print options and exit |
 | -l (--depth-limit) | INT 500 | Depth limit |
-| -m (--margin) | INT 1000 | Margin for variant calling |
-| -p (--use-paired-end) | [true/false] true | Consider paired-end reads |
-| -rp (--reference-prior) | DOUBLE 0.135 | Prior strength for reference allele |
-| -th (--threshold) | DOUBLE 10.0 | Threshold for filtering variant calls |
+| --margin | INT 100 | margin for realignment region |
+| --skip-homopolymer-size | INT / 15 | homopolymer size skipped in realignment |
+| --fusion-distance | INT / 80  | window distance for unifying realignment target regions |
+| --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
+| --mismatch-penalty-realign | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
+| --gap-open-penalty-realign | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
+| --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
 | -u (--unit-id) | INT 1 | Unit ID |
 
 ## DOWNLOAD
