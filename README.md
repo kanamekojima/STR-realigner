@@ -56,6 +56,7 @@ java -jar STR-realigner.jar \
 
 ## OPTIONS
 
+For Realign
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
@@ -72,5 +73,24 @@ java -jar STR-realigner.jar \
 | --mismatch-penalty-realign | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
 | --gap-open-penalty-realign | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
 | --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
+
+For RegionFinder
+| Option | Value Type | Default | Summary |
+|--------|:-----------|:--------|:--------|
+| --fusion-distance | INT | none | window distance for unifying realignment target regions |
+| -h (--help) | BOOLEAN | false | Print options and exit |
+| --margin | INT 100 | margin for realignment region |
+| --output-file | STR | none | output BAM file with realigned reads (SAM format text is printed to stdout without option |
+| --skip-homopolymer-size | INT | 15 | homopolymer size skipped in realignment |
+| --fusion-distance | INT | 80  | window distance for unifying realignment target regions |
+| --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
+| --mismatch-penalty | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
+| --gap-open-penalty | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
+| --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
+| --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
+| --mismatch-penalty-realign | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
+| --gap-open-penalty-realign | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
+| --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
+
 
 ## DOWNLOAD
