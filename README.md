@@ -33,10 +33,10 @@ java -jar STR-realigner.jar \
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
-| -h (--help) | BOOLEAN / false | Print options and exit |
+| -h (--help) | BOOLEAN | false | Print options and exit |
 | --margin | INT 100 | margin for realignment region |
-| --skip-homopolymer-size | INT / 15 | homopolymer size skipped in realignment |
-| --fusion-distance | INT / 80  | window distance for unifying realignment target regions |
+| --skip-homopolymer-size | INT | 15 | homopolymer size skipped in realignment |
+| --fusion-distance | INT | 80  | window distance for unifying realignment target regions |
 | --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
 | --mismatch-penalty | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
 | --gap-open-penalty | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
