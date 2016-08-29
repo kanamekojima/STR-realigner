@@ -61,6 +61,7 @@ java -jar STR-realigner.jar \
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
 | -h (--help) | BOOLEAN | false | Print options and exit |
 | --margin | INT 100 | margin for realignment region |
+| --output-file | STR | none | output BAM file with realigned reads (SAM format text is printed to stdout without option |
 | --skip-homopolymer-size | INT | 15 | homopolymer size skipped in realignment |
 | --fusion-distance | INT | 80  | window distance for unifying realignment target regions |
 | --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
