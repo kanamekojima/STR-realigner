@@ -42,9 +42,12 @@ java -jar STR-realigner.jar \
 | --skip-homopolymer-size | INT / 15 | homopolymer size skipped in realignment |
 | --fusion-distance | INT / 80  | window distance for unifying realignment target regions |
 | --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
+| --mismatch-penalty | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
+| --gap-open-penalty | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
+| --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
+| --match-penalty-realign | DOUBLE | -1.0 | match penalty in target microsatellite region |
 | --mismatch-penalty-realign | DOUBLE | -1.0 | mismatch penalty in target microsatellite region |
 | --gap-open-penalty-realign | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
 | --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
-| -u (--unit-id) | INT 1 | Unit ID |
 
 ## DOWNLOAD
