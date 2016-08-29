@@ -13,7 +13,7 @@ A list of STR regions
 
 Variant calling and haplotype phasing results in VCF format
 
-## USAGE
+## BASIC USAGE
 
 Obtain a file for STR regions for realignment with the following command:
 
@@ -40,12 +40,14 @@ chr22:17077218-17077235 AAAAT
 ...
 ~~~~
 
+By applying the obtained <STR region file for alignment>, reads in <Input SAM or BAM file> is realigned:
 
 ~~~~
 java -jar STR-realigner.jar \  
     Realign \
-    <SAM or BAM file> \
-    <Fasta file>
+    --output-file <Realigned BAM file> \
+    <Input SAM or BAM file> \
+    <Fasta file> \
     <STR region file>
   
 ~~~~
