@@ -57,6 +57,7 @@ java -jar STR-realigner.jar \
 ## OPTIONS
 
 For Realign
+
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
@@ -75,6 +76,7 @@ For Realign
 | --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
 
 For RegionFinder
+
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
