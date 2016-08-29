@@ -32,12 +32,8 @@ java -jar STR-realigner.jar \
 
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
-| -r (--reference) | STR | none | Reference genome fasta file| 
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
-| --gap-extension-penalty-realign | DOUBLE | none | gap exntesion penalty for STR region |
-|* -c (--call-range-size) | INT | 2500000 | Variant calling range size |
 | -h (--help) | BOOLEAN / false | Print options and exit |
-| -l (--depth-limit) | INT 500 | Depth limit |
 | --margin | INT 100 | margin for realignment region |
 | --skip-homopolymer-size | INT / 15 | homopolymer size skipped in realignment |
 | --fusion-distance | INT / 80  | window distance for unifying realignment target regions |
