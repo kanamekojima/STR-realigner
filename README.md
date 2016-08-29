@@ -15,7 +15,31 @@ Variant calling and haplotype phasing results in VCF format
 
 ## USAGE
 
-Example
+Obtain a file for STR regions for realignment with the following command:
+
+~~~~
+java -jar STR-realigner.jar \  
+    RegionFinder \
+    --output <STR region file for realignment>
+    <Fasta file> \
+    <STR region file>
+  
+~~~~
+
+<STR region file> is given as the following format:
+
+~~~~
+chr22:17070462-17070484 T
+chr22:17070981-17070996 CT
+chr22:17071583-17071602 A
+chr22:17074193-17074211 T
+chr22:17075735-17075759 T
+chr22:17075881-17075895 AAAG
+chr22:17076890-17076933 AAAT
+chr22:17077218-17077235 AAAAT
+...
+~~~~
+
 
 ~~~~
 java -jar STR-realigner.jar \  
