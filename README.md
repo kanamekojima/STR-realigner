@@ -7,11 +7,12 @@ STR-realigner is a Java program that extracts and realigns sequence reads in inp
 ## INPUT
 
 The sequence read data in SAM or BAM format
-A list of STR regions
+A list of STR regions (explanation given below)
+Reference genome such as GRCh38
 
 ## OUTPUT
 
-Variant calling and haplotype phasing results in VCF format
+Realigned sequence reads in SAM or BAM format
 
 ## BASIC USAGE
 
@@ -56,7 +57,7 @@ java -jar STR-realigner.jar \
 
 ## OPTIONS
 
-For Realign
+### Realign
 
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
@@ -75,7 +76,7 @@ For Realign
 | --gap-open-penalty-realign | DOUBLE | 2.0 | gap open penalty in target microsatellite region |
 | --gap-open-extension-realign | DOUBLE | 2.0 | gap extension penalty in target microsatellite region |
 
-For RegionFinder
+### RegionFinder
 
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
