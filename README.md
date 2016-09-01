@@ -41,7 +41,7 @@ chr22:17077218-17077235 AAAAT
 ...
 ~~~~
 
-By applying the obtained <STR region file for alignment>, reads in <Input SAM or BAM file> is realigned:
+By applying the obtained `<STR region file for alignment>`, reads in `<input SAM or BAM file>` is realigned:
 
 ~~~~
 java -jar STR-realigner.jar \  
