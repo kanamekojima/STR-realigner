@@ -6,9 +6,9 @@ STR-realigner is a Java program that extracts and realigns sequence reads in inp
 
 ## INPUT
 
-The sequence read data in SAM or BAM format
-A list of STR regions (explanation given below)
-Reference genome such as GRCh38
+- The sequence read data in SAM or BAM format
+- A list of STR regions (explanation given below)
+- Reference genome such as GRCh38
 
 ## OUTPUT
 
