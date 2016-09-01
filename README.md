@@ -27,7 +27,7 @@ java -jar STR-realigner.jar \
   
 ~~~~
 
-<STR region file> is given as the following format:
+`<STR region file>` is given as the following format:
 
 ~~~~
 chr22:17070462-17070484 T
