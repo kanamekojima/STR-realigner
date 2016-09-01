@@ -85,3 +85,6 @@ java -jar STR-realigner.jar \
 | --output-file | STRING | STDOUT | output text for region information |
 
 ## DOWNLOAD
+
+https://github.com/kanamekojima/STR-realigner/blob/master/STR_realigner_v0.1.tgz
+
