@@ -45,7 +45,7 @@ By applying the obtained `<STR region file for alignment>`, reads in `<input SAM
 
 ~~~~
 java -jar STR-realigner.jar \  
-    Realign \
+    Realigner \
     --output-file <Realigned BAM file> \
     <Input SAM or BAM file> \
     <Fasta file> \
@@ -57,7 +57,7 @@ java -jar STR-realigner.jar \
 
 ## OPTIONS
 
-### Realign
+### Realigner
 
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
