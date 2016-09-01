@@ -16,7 +16,7 @@ Realigned sequence reads in SAM or BAM format
 
 ## BASIC USAGE
 
-Obtain a file for STR regions for realignment with the following command:
+Prepare a file for STR regions for realignment with the following command:
 
 ~~~~
 java -jar STR-realigner.jar \  
