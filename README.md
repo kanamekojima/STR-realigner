@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-STR-realigner is a Java program that extracts and realigns sequence reads in input SAM/BAM file around prespecified short tandem repeat regions. Realigned sequence reads are saved as SAM/BAM format and used for variant calling with existing STR call software tools.
+STR-realigner is a Java program that extracts and realigns sequence reads in input SAM/BAM file around prespecified short tandem repeat regions. Realigned sequence reads are saved as SAM/BAM format and used for variant calling with existing STR callers.
 
 ## INPUT
 
