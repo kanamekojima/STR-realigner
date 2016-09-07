@@ -84,7 +84,9 @@ java -jar STR-realigner.jar \
 | --flanking-region-size | INT | 1 | flanking region size for analysis |
 | --output-file | STRING | STDOUT | output text for region information |
 
-## DOWNLOAD
+## CONTACT
 
-https://github.com/kanamekojima/STR-realigner/blob/master/STR_realigner_v0.1.tgz
+kojima[AT]megabank[DOT]tohoku[DOT]ac[DOT]jp
+
+Please replace [AT] and [DOT] to "@" and ".", respectively.
 
