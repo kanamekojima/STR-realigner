@@ -86,7 +86,9 @@ java -jar STR-realigner.jar \
 
 ## CONTACT
 
+Developper: Kaname Kojima
+
 kojima[AT]megabank[DOT]tohoku[DOT]ac[DOT]jp
 
-Please replace [AT] and [DOT] to "@" and ".", respectively.
+Please replace [AT] and [DOT] with "@" and ".", respectively.
 
