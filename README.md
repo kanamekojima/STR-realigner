@@ -86,7 +86,7 @@ java -jar STR-realigner.jar \
 
 ## CONTACT
 
-Developper: Kaname Kojima
+Developer: Kaname Kojima
 
 kojima[AT]megabank[DOT]tohoku[DOT]ac[DOT]jp
 
