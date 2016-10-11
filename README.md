@@ -74,6 +74,9 @@ java -jar STR-realigner.jar \
 | --gap-open-penalty-realign | DOUBLE | 4.0 | gap open penalty in target microsatellite region |
 | --gap-extension-realign | DOUBLE | 1.0 | gap extension penalty in target microsatellite region |
 | --clipping-penalty | DOUBLE | 5.0 | gap extension penalty in target microsatellite region |
+|--skip-realignment  | BOOLEAN | false | flag for applying realignment skipping |
+| --skip-realignment-base-quality N | INT | 60 | base quality score threshold for realignment skipping |
+| --skip-realignment-mismatch-count N | INT | 5 | mismatch base count limit for realignment skipping |
 
 
 ### RegionFinder
@@ -88,7 +91,7 @@ java -jar STR-realigner.jar \
 
 
 - v0.1.01
- - New options for skipping the realignment for reads satisfying some conditions were added.
+ - New options for realignment skipping on reads satisfying some conditions were added.
 
 
 ## CONTACT
