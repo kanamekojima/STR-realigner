@@ -62,7 +62,7 @@ java -jar STR-realigner.jar \
 | Option | Value Type | Default | Summary |
 |--------|:-----------|:--------|:--------|
 | --fusion-distance | INT | none | window distance for unifying realignment target regions |
-| --help | BOOLEAN | false | Print options and exit |
+| --help | BOOLEAN | false | print options and exit |
 | --flanking-region-size | INT | 100 | flanking region size for realignment region |
 | --output-file | STRING | STDOUT | output BAM file with realigned reads (SAM format text is printed to stdout without option |
 | --skip-homopolymer-size | INT | 15 | homopolymer size skipped in realignment |
