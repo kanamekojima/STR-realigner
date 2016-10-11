@@ -88,7 +88,7 @@ java -jar STR-realigner.jar \
 
 
 - v0.1.01
-  New options for skipping the realignment for reads satisfying some conditions were added.
+ - New options for skipping the realignment for reads satisfying some conditions were added.
 
 
 ## CONTACT
