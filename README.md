@@ -84,6 +84,13 @@ java -jar STR-realigner.jar \
 | --flanking-region-size | INT | 1 | flanking region size for analysis |
 | --output-file | STRING | STDOUT | output text for region information |
 
+## Changelog
+
+
+- v0.1.01
+  New options for skipping the realignment for reads satisfying some conditions were added.
+
+
 ## CONTACT
 
 Developer: Kaname Kojima
